@@ -15,7 +15,7 @@ public class Answer {
     private String answer;
 
     @ManyToOne
-    @JoinColumn(name = "question_id")  // Foreign key column
+    @JoinColumn(name = "question_id")
     private Questions question;
 
     public Answer() {
